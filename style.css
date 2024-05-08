@@ -1,0 +1,115 @@
+body {
+    
+    max-width: 1440px;
+    background-color:   hsl(30, 54%, 90%);
+    
+}
+.content {
+    background-color: hsl(0, 0%, 100%) ;
+    border-radius: 30px;
+    font-family: 'Outfit', sans-serif;
+    margin: 7em;
+    padding: 3rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+p {
+    text-align: left;
+    font-family: 'Outfit', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+h1,
+h2 {
+    font-family: 'YoungSerif-Regular', sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+}
+h2 {
+    font-size: 3em;
+    color: hsl(14, 45%, 36%);
+}
+
+.pc {
+    font-size: 2rem;
+    font-weight: 600;
+    color:  hsl(332, 51%, 32%);
+}
+
+#pl {
+    background-color:   hsl(330, 100%, 98%);
+    padding: 2em;
+    border-radius: 1rem;
+
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+#plist {
+    font-size: 1.5rem;
+    margin-left: 1em;
+    text-decoration: double;
+    text-decoration-color: hsl(332, 51%, 32%);
+}
+.instructions {
+    margin-bottom: 5rem;
+}
+#ilist {
+    text-align: left;
+    font-size: 1.5em;
+    margin-left: 1em;
+    font-weight: 300;
+}
+#inlist {
+    font-size: 1.5em;
+    margin-left: 1em;
+    font-weight: 300;
+}
+.tp {
+    font-size: 1.5rem;
+    font-weight: 300;
+    
+}
+table{
+
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2em;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+tr{
+    border-bottom: 1px solid black;
+}
+th, td{
+    text-align: left;
+    text-indent: 1em;
+    padding: 1em;
+    
+}
+th{
+    color: hsl(14, 45%, 36%);
+}
+
+
+@font-face {
+    font-family: 'YoungSerif-Regular';
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
